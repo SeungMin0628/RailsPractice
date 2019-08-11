@@ -1,0 +1,911 @@
+Started GET "/" for ::1 at 2019-08-11 18:04:44 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/NC00009477/.rvm/gems/ruby-2.5.5/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/NC00009477/.rvm/gems/ruby-2.5.5/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.8ms)
+Completed 200 OK in 11ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-08-11 18:22:15 +0900
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/books" for ::1 at 2019-08-11 18:22:30 +0900
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/books" for ::1 at 2019-08-11 18:22:31 +0900
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:4
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateBooks (20190811091855)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "books" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "isbn" varchar, "title" varchar, "price" integer, "publish" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190811091855_create_books.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190811091855"]]
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-08-11 09:22:51.703530"], ["updated_at", "2019-08-11 09:22:51.703530"]]
+  ↳ bin/rails:4
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Started GET "/books" for ::1 at 2019-08-11 18:22:57 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:17
+  Rendered books/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 275ms (Views: 271.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books.json" for ::1 at 2019-08-11 18:29:02 +0900
+Processing by BooksController#index as JSON
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/index.json.jbuilder (1.0ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.1ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Delete (0.3ms)[0m  [1m[31mDELETE FROM "books"[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Insert (0.8ms)[0m  [1m[32mINSERT INTO "books" ("isbn", "title", "price", "publish", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 1, 'MyString', '2019-08-11 09:32:37.414349', '2019-08-11 09:32:37.414349', 980190962)[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "books" ("isbn", "title", "price", "publish", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 1, 'MyString', '2019-08-11 09:32:37.414349', '2019-08-11 09:32:37.414349', 298486374)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  ↳ bin/rails:4
+Started GET "/books" for ::1 at 2019-08-11 18:32:44 +0900
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:17
+  Rendered books/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 47ms (Views: 44.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/298486374" for ::1 at 2019-08-11 18:32:48 +0900
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"298486374"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 298486374], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 35ms (Views: 29.8ms | ActiveRecord: 0.2ms)
+
+
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "books"[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  ↳ bin/rails:4
+Started GET "/books" for ::1 at 2019-08-11 18:33:05 +0900
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:17
+  Rendered books/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for ::1 at 2019-08-11 18:33:06 +0900
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:17
+  Rendered books/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.1ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateBooks (20190811093454)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "books" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "isbn" varchar, "title" varchar, "price" integer, "publish" varchar, "published" date, "cd" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190811093454_create_books.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190811093454"]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-08-11 09:36:00.387116"], ["updated_at", "2019-08-11 09:36:00.387116"]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "books"[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (1, '978-4-7741-5878-5', '안드로이드 개발자를 위한 자바', 33600, '제이펍', '2013-08-20', 0, '2019-08-11 09:36:03.006481', '2019-08-11 09:36:03.006481')[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (2, '978-4-7741-5611-8', '자바스크립트 라이브러리 실전 활용', 27090, '제이펍', '2013-03-19', 0, '2019-08-11 09:36:03.006481', '2019-08-11 09:36:03.006481')[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (3, '978-4-7741-4980-6', 'Ruby on Rails 4 포켓 레퍼런스', 29190, '제이펍', '2012-01-26', 1, '2019-08-11 09:36:03.006481', '2019-08-11 09:36:03.006481')[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (4, '978-4-8222-9621-6', '함께 공부하는 SQL', 23100, '인사이트', '2013-04-22', 1, '2019-08-11 09:36:03.006481', '2019-08-11 09:36:03.006481')[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (5, '978-4-7980-3585-7', '처음 시작하는 안드로이드 애플리케이션 개발', 31500, '한빛아카데미', '2012-11-22', 0, '2019-08-11 09:36:03.006481', '2019-08-11 09:36:03.006481')[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (6, '978-4-7981-2631-9', '10일 만에 살펴보는 PHP 입문 교실', 33600, '한빛미디어', '2012-09-13', 1, '2019-08-11 09:36:03.006481', '2019-08-11 09:36:03.006481')[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (7, '987-4-8222-9612-4', 'HTML5 애플리케이션 개발 입문', 19950, '인사이트', '2012-06-07', 0, '2019-08-11 09:36:03.006481', '2019-08-11 09:36:03.006481')[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (8, '978-4-7741-5067-3', 'HTML5 개발 포켓 레퍼런스', 27090, '한빛미디어', '2012-04-17', 0, '2019-08-11 09:36:03.006481', '2019-08-11 09:36:03.006481')[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (9, '978-4-7981-3049-1', '혼자 공부하는 Java 서버 사이드 개발', 37800, '한빛미디어', '2013-01-28', 0, '2019-08-11 09:36:03.006481', '2019-08-11 09:36:03.006481')[0m
+  ↳ bin/rails:4
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (10, '978-4-88337-774-9', 'Flash CS를 사용한 iPhone 프로그래밍', 26250, '길벗', '2011-08-16', 0, '2019-08-11 09:36:03.006481', '2019-08-11 09:36:03.006481')[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  ↳ bin/rails:4
+Started GET "/books" for ::1 at 2019-08-11 18:36:06 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:19
+  Rendered books/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 30ms (Views: 26.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/books.json" for ::1 at 2019-08-11 18:36:12 +0900
+Processing by BooksController#index as JSON
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (9.0ms)
+Completed 200 OK in 16ms (Views: 13.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books.json" for ::1 at 2019-08-11 18:38:19 +0900
+Processing by BooksController#index as JSON
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.3ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/index.json.jbuilder (10.0ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/1/edit" for ::1 at 2019-08-11 18:54:26 +0900
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/_form.html.erb (29.9ms)
+  Rendered books/edit.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 64ms (Views: 59.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/books/1" for ::1 at 2019-08-11 19:04:45 +0900
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 29ms (Views: 24.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/books" for ::1 at 2019-08-11 19:11:31 +0900
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:19
+  Rendered books/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 26ms (Views: 22.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/new" for ::1 at 2019-08-11 19:11:33 +0900
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (3.9ms)
+  Rendered books/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/new" for ::1 at 2019-08-11 19:12:50 +0900
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (3.7ms)
+  Rendered books/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for ::1 at 2019-08-11 19:13:57 +0900
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PZzWmTJI4asBZglsU+6aTMxiWkq/CPKgsiGDI+K/Sg1N2v6oDgBi4HgjCnJh9O0GU1MZvm2Zm/x5s0JMM/KM3g==", "book"=>{"isbn"=>"", "title"=>"", "price"=>"", "publish"=>"", "published(1i)"=>"2019", "published(2i)"=>"8", "published(3i)"=>"11", "cd"=>"0"}, "commit"=>"Create Book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:30
+  [1m[36mBook Create (0.7ms)[0m  [1m[32mINSERT INTO "books" ("isbn", "title", "publish", "published", "cd", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["isbn", ""], ["title", ""], ["publish", ""], ["published", "2019-08-11"], ["cd", 0], ["created_at", "2019-08-11 10:13:57.457059"], ["updated_at", "2019-08-11 10:13:57.457059"]]
+  ↳ app/controllers/books_controller.rb:30
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:30
+Redirected to http://localhost:3000/books/11
+Completed 302 Found in 4ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/books/11" for ::1 at 2019-08-11 19:13:57 +0900
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 12.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for ::1 at 2019-08-11 19:14:00 +0900
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:19
+  Rendered books/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/11/edit" for ::1 at 2019-08-11 19:14:04 +0900
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/_form.html.erb (3.6ms)
+  Rendered books/edit.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/books/11" for ::1 at 2019-08-11 19:14:27 +0900
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JkYH85FqDSLw9VEk6IQRasnog8CRpXfB7e1CDr1f0lTXoGW49E9WQQPViszXqOZ8Z+tmtUXaCLbWLDjAQjjPuA==", "book"=>{"isbn"=>"vbn", "title"=>"vbn", "price"=>"567890", "publish"=>"fghjk", "published(1i)"=>"2019", "published(2i)"=>"8", "published(3i)"=>"11", "cd"=>"1"}, "commit"=>"Update Book", "id"=>"11"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:44
+  [1m[36mBook Update (0.3ms)[0m  [1m[33mUPDATE "books" SET "isbn" = ?, "title" = ?, "price" = ?, "publish" = ?, "cd" = ?, "updated_at" = ? WHERE "books"."id" = ?[0m  [["isbn", "vbn"], ["title", "vbn"], ["price", 567890], ["publish", "fghjk"], ["cd", 1], ["updated_at", "2019-08-11 10:14:27.493704"], ["id", 11]]
+  ↳ app/controllers/books_controller.rb:44
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:44
+Redirected to http://localhost:3000/books/11
+Completed 302 Found in 6ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/books/11" for ::1 at 2019-08-11 19:14:27 +0900
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for ::1 at 2019-08-11 19:14:29 +0900
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:19
+  Rendered books/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/1/edit" for ::1 at 2019-08-11 21:39:22 +0900
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.8ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/_form.html.erb (11.8ms)
+  Rendered books/edit.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 66ms (Views: 54.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/books/1" for ::1 at 2019-08-11 21:39:57 +0900
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 34ms (Views: 29.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for ::1 at 2019-08-11 21:39:59 +0900
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:19
+  Rendered books/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 33ms (Views: 29.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/1" for ::1 at 2019-08-11 21:40:01 +0900
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 23.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/1/edit" for ::1 at 2019-08-11 21:40:02 +0900
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/_form.html.erb (3.4ms)
+  Rendered books/edit.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/books/1" for ::1 at 2019-08-11 21:40:11 +0900
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qEaUs6SgomvXcOIxkt7rzKtvENG1SxcMYPawyqzcTZHc7LLdXDWQJ7/PWC29+zbsZcYDLiUULlRqq7e217H9WQ==", "book"=>{"isbn"=>"", "title"=>"안드로이드 개발자를 위한 자바", "price"=>"33600", "publish"=>"제이펍", "published(1i)"=>"2013", "published(2i)"=>"8", "published(3i)"=>"20", "cd"=>"0"}, "commit"=>"Update Book", "id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:44
+  [1m[36mBook Update (0.5ms)[0m  [1m[33mUPDATE "books" SET "isbn" = ?, "updated_at" = ? WHERE "books"."id" = ?[0m  [["isbn", ""], ["updated_at", "2019-08-11 12:40:11.293174"], ["id", 1]]
+  ↳ app/controllers/books_controller.rb:44
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:44
+Redirected to http://localhost:3000/books/1
+Completed 302 Found in 11ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/books/1" for ::1 at 2019-08-11 21:40:11 +0900
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/1.hson" for ::1 at 2019-08-11 21:40:20 +0900
+Processing by BooksController#show as 
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 53ms (Views: 32.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/1.json" for ::1 at 2019-08-11 21:40:23 +0900
+Processing by BooksController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/show.json.jbuilder
+  Rendered books/_book.json.jbuilder (1.2ms)
+  Rendered books/show.json.jbuilder (4.1ms)
+Completed 200 OK in 14ms (Views: 10.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/1/edit" for ::1 at 2019-08-11 21:40:43 +0900
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/_form.html.erb (5.9ms)
+  Rendered books/edit.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 51ms (Views: 48.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/books/1" for ::1 at 2019-08-11 21:40:45 +0900
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N+uy5Aw3b1UuktAgmPzYDLzujHq23cdZRrp+LEwukHBDQZSK9KJdGUYtajy32QUsckefhSaC/gFM53lQN0MguA==", "book"=>{"isbn"=>"", "title"=>"안드로이드 개발자를 위한 자바", "price"=>"33600", "publish"=>"제이펍", "published(1i)"=>"2013", "published(2i)"=>"8", "published(3i)"=>"20", "cd"=>"0"}, "commit"=>"Update Book", "id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:44
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:44
+Redirected to http://localhost:3000/books/1
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/books/1" for ::1 at 2019-08-11 21:40:45 +0900
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for ::1 at 2019-08-11 21:44:08 +0900
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:19
+  Rendered books/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/new" for ::1 at 2019-08-11 21:44:11 +0900
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (4.9ms)
+  Rendered books/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-08-11 21:44:25 +0900
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:19
+  Rendered books/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/3/edit" for ::1 at 2019-08-11 21:44:26 +0900
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:67
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/_form.html.erb (4.2ms)
+  Rendered books/edit.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for ::1 at 2019-08-11 21:44:32 +0900
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:19
+  Rendered books/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 0.1ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateBooks (20190811093454)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "books" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "isbn" varchar, "title" varchar, "price" integer, "publish" varchar, "published" date, "cd" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190811093454_create_books.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190811093454"]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+Migrating to CreateJoinTableAuthorBook (20190811125433)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "authors_books" ("author_id" integer NOT NULL, "book_id" integer NOT NULL)[0m
+  ↳ db/migrate/20190811125433_create_join_table_author_book.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190811125433"]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+Migrating to CreateUsers (20190811125613)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "password" varchar, "salt" varchar, "email" varchar, "dm" boolean, "roles" varchar, "reviews_count" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190811125613_create_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190811125613"]]
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+Migrating to CreateAuthors (20190811125705)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "authors" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "birth" date, "address" text, "ctype" varchar, "photo" blob, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_46e884287b"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  ↳ db/migrate/20190811125705_create_authors.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_authors_on_user_id" ON "authors" ("user_id")[0m
+  ↳ db/migrate/20190811125705_create_authors.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190811125705"]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+Migrating to CreateReviews (20190811125741)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "user_id" integer, "body" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_924a0b30ca"
+FOREIGN KEY ("book_id")
+  REFERENCES "books" ("id")
+, CONSTRAINT "fk_rails_74a66bd6c5"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  ↳ db/migrate/20190811125741_create_reviews.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_reviews_on_book_id" ON "reviews" ("book_id")[0m
+  ↳ db/migrate/20190811125741_create_reviews.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_reviews_on_user_id" ON "reviews" ("user_id")[0m
+  ↳ db/migrate/20190811125741_create_reviews.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190811125741"]]
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+Migrating to CreateFanComments (20190811125820)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "fan_comments" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "author_no" integer, "name" varchar, "body" text, "deleted" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190811125820_create_fan_comments.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190811125820"]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+Migrating to CreateMemos (20190811125901)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateMemos (20190811125901)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateMemos (20190811125901)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateMemos (20190811125901)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190811125901_create_memos.rb:3
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "memos" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "memoable_type" varchar, "memoable_id" integer, "body" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190811125901_create_memos.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190811125901"]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-08-11 13:00:17.975718"], ["updated_at", "2019-08-11 13:00:17.975718"]]
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Delete (1.7ms)[0m  [1m[31mDELETE FROM "reviews"[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Delete (0.5ms)[0m  [1m[31mDELETE FROM "users"[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Delete (0.6ms)[0m  [1m[31mDELETE FROM "authors"[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "books"[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Delete (0.5ms)[0m  [1m[31mDELETE FROM "authors_books"[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Delete (0.5ms)[0m  [1m[31mDELETE FROM "fan_comments"[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Delete (0.5ms)[0m  [1m[31mDELETE FROM "memos"[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("id", "book_id", "user_id", "body", "created_at", "updated_at") VALUES (1, 1, 2, 'Android 개발을 할 것이라면 꼭 읽었으면 좋겠어요!', '2019-08-11 13:01:32.598806', '2019-08-11 13:01:32.598806')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "reviews" ("id", "book_id", "user_id", "body", "created_at", "updated_at") VALUES (2, 1, 3, 'Java 기본을 다시 살펴보고 싶을 때마다 펴보고 있는 책이에요.', '2019-08-11 13:01:32.598806', '2019-08-11 13:01:32.598806')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "reviews" ("id", "book_id", "user_id", "body", "created_at", "updated_at") VALUES (3, 2, 2, '굉장히 유용합니다. 다양한 라이브러리를 소개해줍니다.', '2019-08-11 13:01:32.598806', '2019-08-11 13:01:32.598806')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "reviews" ("id", "book_id", "user_id", "body", "created_at", "updated_at") VALUES (4, 2, 4, '친절한 설명에 예제도 많아서 좋습니다.', '2019-08-11 13:01:32.598806', '2019-08-11 13:01:32.598806')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "reviews" ("id", "book_id", "user_id", "body", "created_at", "updated_at") VALUES (5, 2, 5, '초보자에게는 조금 어려울 수 있을 것 같습니다.', '2019-08-11 13:01:32.598806', '2019-08-11 13:01:32.598806')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "reviews" ("id", "book_id", "user_id", "body", "created_at", "updated_at") VALUES (6, 3, 1, '그림과 예제가 많아서 초보자인 저도 쉽게 이해할 수 있었어요!', '2019-08-11 13:01:32.598806', '2019-08-11 13:01:32.598806')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "reviews" ("id", "book_id", "user_id", "body", "created_at", "updated_at") VALUES (7, 3, 1, '내용이 좋습니다.', '2019-08-11 13:01:32.598806', '2019-08-11 13:01:32.598806')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "reviews" ("id", "book_id", "user_id", "body", "created_at", "updated_at") VALUES (8, 4, 5, '데이터베이스를 처음 공부해서 조금 어려웠지만 이제 잘 사용할 수 있을 것 같아요!', '2019-08-11 13:01:32.598806', '2019-08-11 13:01:32.598806')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "reviews" ("id", "book_id", "user_id", "body", "created_at", "updated_at") VALUES (9, 5, 3, '기초부터 응용까지 모두 다루어주고 있습니다. 이 책 한 권으로도 안드로이드 개발을 끝낼 수 있을 것 같아요.', '2019-08-11 13:01:32.598806', '2019-08-11 13:01:32.598806')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "users" ("id", "username", "password", "salt", "email", "dm", "roles", "reviews_count", "created_at", "updated_at") VALUES (1, 'arint', '2cf00a11121ad260ed32b290f9aefa01279bd5a2', '5f90a188468f64998c5a', 'testA@test.com', 1, 'admin,manager', 2, '2019-08-11 13:01:32.601689', '2019-08-11 13:01:32.601689')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "users" ("id", "username", "password", "salt", "email", "dm", "roles", "reviews_count", "created_at", "updated_at") VALUES (2, 'hasat', '9be7f45387af4f7bbe720d16a6f334503b5c4f81', '5f90a188468f64998c5b', 'testD@test.com', 0, 'admin', 2, '2019-08-11 13:01:32.601689', '2019-08-11 13:01:32.601689')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "users" ("id", "username", "password", "salt", "email", "dm", "roles", "reviews_count", "created_at", "updated_at") VALUES (3, 'hiana', '6cc09597819748465c6a2603a6f7a52d51eb01ef', '5f90a188468f64998c5c', 'testE@test.com', 1, 'manager', 2, '2019-08-11 13:01:32.601689', '2019-08-11 13:01:32.601689')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "users" ("id", "username", "password", "salt", "email", "dm", "roles", "reviews_count", "created_at", "updated_at") VALUES (4, 'rant', '06780c9b144eaf8dc0c8c6ded18afb032cac9b5e', '5f90a188468f64998c5d', 'testF@test.com', 0, 'member', 1, '2019-08-11 13:01:32.601689', '2019-08-11 13:01:32.601689')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "users" ("id", "username", "password", "salt", "email", "dm", "roles", "reviews_count", "created_at", "updated_at") VALUES (5, 'gurum', '088aac29e5ea1bfd8879eaf3b621bdd3d31f072e', '5f90a188468f64998c5e', 'testG@test.com', 1, 'member', 2, '2019-08-11 13:01:32.601689', '2019-08-11 13:01:32.601689')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "users" ("id", "username", "password", "salt", "email", "dm", "roles", "reviews_count", "created_at", "updated_at") VALUES (6, 'nkakeya', 'c599f512c00d8bbb9fd883f28b9555213516f88e', '5f90a188468f64998c5f', 'testG@test.com', 1, 'manager,member', 0, '2019-08-11 13:01:32.601689', '2019-08-11 13:01:32.601689')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors" ("id", "user_id", "name", "birth", "address", "created_at", "updated_at") VALUES (1, 1, '윤인성', '1991-12-09', '서울특별시 강서구', '2019-08-11 13:01:32.602667', '2019-08-11 13:01:32.602667')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors" ("id", "user_id", "name", "birth", "address", "created_at", "updated_at") VALUES (2, 2, '연하진', '1991-02-14', '서울특별시 강서구', '2019-08-11 13:01:32.602667', '2019-08-11 13:01:32.602667')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors" ("id", "user_id", "name", "birth", "address", "created_at", "updated_at") VALUES (3, 3, '김연화', '1989-10-15', '서울특별시 마포구', '2019-08-11 13:01:32.602667', '2019-08-11 13:01:32.602667')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (1, '978-4-7741-5878-5', '안드로이드 개발자를 위한 자바', 33600, '제이펍', '2013-08-20', 0, '2019-08-11 13:01:32.603597', '2019-08-11 13:01:32.603597')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (2, '978-4-7741-5611-8', '자바스크립트 라이브러리 실전 활용', 27090, '제이펍', '2013-03-19', 0, '2019-08-11 13:01:32.603597', '2019-08-11 13:01:32.603597')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (3, '978-4-7741-4980-6', 'Ruby on Rails 4 포켓 레퍼런스', 29190, '제이펍', '2012-01-26', 1, '2019-08-11 13:01:32.603597', '2019-08-11 13:01:32.603597')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (4, '978-4-8222-9621-6', '함께 공부하는 SQL', 23100, '인사이트', '2013-04-22', 1, '2019-08-11 13:01:32.603597', '2019-08-11 13:01:32.603597')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (5, '978-4-7980-3585-7', '처음 시작하는 안드로이드 애플리케이션 개발', 31500, '한빛아카데미', '2012-11-22', 0, '2019-08-11 13:01:32.603597', '2019-08-11 13:01:32.603597')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (6, '978-4-7981-2631-9', '10일 만에 살펴보는 PHP 입문 교실', 33600, '한빛미디어', '2012-09-13', 1, '2019-08-11 13:01:32.603597', '2019-08-11 13:01:32.603597')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (7, '987-4-8222-9612-4', 'HTML5 애플리케이션 개발 입문', 19950, '인사이트', '2012-06-07', 0, '2019-08-11 13:01:32.603597', '2019-08-11 13:01:32.603597')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (8, '978-4-7741-5067-3', 'HTML5 개발 포켓 레퍼런스', 27090, '한빛미디어', '2012-04-17', 0, '2019-08-11 13:01:32.603597', '2019-08-11 13:01:32.603597')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (9, '978-4-7981-3049-1', '혼자 공부하는 Java 서버 사이드 개발', 37800, '한빛미디어', '2013-01-28', 0, '2019-08-11 13:01:32.603597', '2019-08-11 13:01:32.603597')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "isbn", "title", "price", "publish", "published", "cd", "created_at", "updated_at") VALUES (10, '978-4-88337-774-9', 'Flash CS를 사용한 iPhone 프로그래밍', 26250, '길벗', '2011-08-16', 0, '2019-08-11 13:01:32.603597', '2019-08-11 13:01:32.603597')[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors_books" ("book_id", "author_id") VALUES (1, 1)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors_books" ("book_id", "author_id") VALUES (2, 1)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors_books" ("book_id", "author_id") VALUES (2, 2)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors_books" ("book_id", "author_id") VALUES (3, 2)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors_books" ("book_id", "author_id") VALUES (4, 2)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors_books" ("book_id", "author_id") VALUES (5, 1)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors_books" ("book_id", "author_id") VALUES (6, 3)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors_books" ("book_id", "author_id") VALUES (7, 3)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors_books" ("book_id", "author_id") VALUES (8, 1)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors_books" ("book_id", "author_id") VALUES (9, 1)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "authors_books" ("book_id", "author_id") VALUES (10, 3)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "fan_comments" ("author_no", "name", "body", "deleted", "created_at", "updated_at", "id") VALUES (1, '윤명월', '친절하게 설명해줘서 좋았어요!', 1, '2019-08-11 13:01:32.604478', '2019-08-11 13:01:32.604478', 980190962)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "fan_comments" ("author_no", "name", "body", "deleted", "created_at", "updated_at", "id") VALUES (1, '남기주', '기초부터 차근차근 알려주는 책인 것 같아요.', 0, '2019-08-11 13:01:32.604478', '2019-08-11 13:01:32.604478', 298486374)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "fan_comments" ("author_no", "name", "body", "deleted", "created_at", "updated_at", "id") VALUES (2, '연하진', '서로 대화하는듯한 설명이 마음에 들었어요.', 0, '2019-08-11 13:01:32.604478', '2019-08-11 13:01:32.604478', 113629430)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "memos" ("memoable_type", "memoable_id", "body", "created_at", "updated_at", "id") VALUES ('MyString', NULL, 'MyString', '2019-08-11 13:01:32.605247', '2019-08-11 13:01:32.605247', 980190962)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "memos" ("memoable_type", "memoable_id", "body", "created_at", "updated_at", "id") VALUES ('MyString', NULL, 'MyString', '2019-08-11 13:01:32.605247', '2019-08-11 13:01:32.605247', 298486374)[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  ↳ /Users/NC00009477/.rvm/gems/ruby-2.5.5/bin/rake:23
